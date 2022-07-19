@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .fixed {
+                background-color: black;
+                color: white;
+                position: fixed;
+                font-family: arial;
+                font-size: 20px;
+                right: 20px;
+                top: 5px;
+                z-index: 100;      
+            }
+
+            .sidebar {
+                background-color: rgb(169, 218, 201);
+                color: rgb(50, 156, 205);
+                width: 100px;
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 200; 
+            }
+
+            .cover {
+                background-color: black;
+                color: white;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body style="height: 3000px;">
+        <div class="fixed">Top-Right</div>
+
+        <br>
+        <div class="sidebar">Green-Sidebar</div>
+        <br>
+        <div class="cover">Cover</div>
+    </body>
+</html>
