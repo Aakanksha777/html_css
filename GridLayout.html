@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Please Accept My Request</title>
+        <style>
+            .cat {
+                width: 200px;
+                height: 150px;
+            }
+
+            .mutual-friend-pic {
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+                border-radius: 20px;
+                margin-left: 6px;
+                margin-right: 10px;
+                margin-top: 3px;
+                margin-bottom: 3px;
+
+            }
+
+            .no-mutual-friend {
+                display: grid;
+                font-size: 16px;
+                font-weight: 500;
+                color: gray;
+
+            }
+/* Replace Display: InlINe-block to Grid*/
+            .main-div {
+                display: grid;
+                grid-template-columns: auto;
+                align-items: centre;
+                border-width: 2px;
+                border-color: rgb(165, 164, 164);
+                border-style: solid;
+            }
+
+            .name {
+                font-size: 20px;
+                font-weight: 500px;
+                padding-left: 6px;
+               }
+
+            .mutual-friend {
+               display: flex;
+               flex-direction: row;
+            }
+
+            .add-button {
+                margin-left: 10px;
+                background-color: rgb(18, 146, 231);
+                color: white;
+                height: 35px;
+                width: 100px;
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+    <!--1st GRID-->
+            <div class="main-div">
+                <div>
+                    <img class="cat"src="IMages.html/cat.jpg">
+                </div>
+
+                <div class="name">Oliver</div>
+
+                <div class="mutual-friend">
+                    <img class="mutual-friend-pic" src=IMages.html/dog2.jpg>
+                    <p class="no-mutual-friend">2 Mutual Friends</p>
+                </div>
+
+                <button class="add-button">Add Friend</button>
+            </div>
+
+    <!--2nd GRID-->
+            <div class="main-div">
+                <div>
+                    <img class="cat"src="Images.html/cat2.jpg">
+                </div>
+
+                <div class="name">Mimi</div>
+
+                <div class="mutual-friend">
+                    <img class="mutual-friend-pic" src=IMages.html/cat.jpg>
+                    <p class="no-mutual-friend">26 Mutual Friends</p>
+                </div>
+
+                <button class="add-button">Add Friend</button>
+            </div>
+
+    <!--3rd GRID-->
+            <div class="main-div">
+                <div>
+                    <img class="cat"src="IMages.html/dog.jpg">
+                </div>
+
+                <div class="name">Rex</div>
+
+                <div class="mutual-friend">
+                    <img class="mutual-friend-pic" src=IMages.html/dog2.jpg>
+                    <p class="no-mutual-friend">20 Mutual Friends</p>
+                </div>
+
+                <button class="add-button">Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>
